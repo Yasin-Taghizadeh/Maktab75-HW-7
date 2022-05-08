@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+#header{
+    background-color:#fff;
+    align-items: flex-end;
+    justify-content:center;
+}
+#header-content {
+    display:flex;
+    margin-left: 160px;
+}
+#header-nav {
+    display:flex;
+    height: 100px;
+    background-color:#fff;
+    align-items: flex-end;
+    justify-content:center;
+}
+
+#nav {
+    width:100px;
+    height:65px;
+    background-color:#0d0d5e;
+    display:flex;
+    flex-grow: 1;
+    margin-left:160px;
+    margin-right:160px;
+    justify-content:space-around;
+    gap:100px;
+}
+
+.nav-content {
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #fff
+}
+.nav-item {
+    margin-top: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #fff
+}
+
+.header-box-1 {
+    height:147px;
+    background-color:#fff;
+    display:flex;
+    width:135x;
+    width: 135px;
+}
+
+.header-box-1 > img {
+    width:185px;
+    height:120px;
+    margin-top: 27px;
+}
+#header-content-2 {
+    display:flex;
+    justify-content:center;
+    gap:120px;
+}
+
+.item {
+    display:flex;
+    margin-top: -60px;
+}
+.item img {
+    margin-top: -16px;
+    margin-right: 7px;
+}
+#header-content-3 {
+    display:flex;
+    justify-content:end;
+}
+.header-box-2 {
+    width:120px;
+    height:40px;
+    background-color:orange;
+    margin-right: 196px;
+    margin-top: -70px;
+    text-align: center;
+    color: #fff;
+}
+#main {
+    background-image: url("q6/131106campus-052-2.jpg");
+    width:100%;
+    background-repeat:round;
+    height:532px;
+}
+.text-content {
+    display:flex;
+    position: fixed;
+    color: #fff;
+    margin-left: 477px;
+    margin-top: 28px;
+    margin-left: 114px;
+    margin-top: 148px;
+    position:absolute;
+}
+.button {
+    width:120px;
+    height: 45px;
+    background-color:orange;
+    margin-top: 160px;
+    margin-left: -289px;
+    border-radius: 15px;
+    text-align: center;
+    color:#fff;
+}
+#footer {
+    display:flex;
+    justify-content: space-around;
+}
+.index {
+    width:475px;
+    height:196px;
+    background-color: #0d0d5e;
+    text-align: center;
+    float:left;
+    color: #fff;
+}
+.item-1,.item-3 {
+    background-color:orange;
+}
+
+.index > p {
+    max-width: 307px;
+    padding-left: 90px;
+}
